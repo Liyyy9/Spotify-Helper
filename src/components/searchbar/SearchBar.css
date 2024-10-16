@@ -4,6 +4,7 @@
   align-items: center;
   padding-top: 6.94rem;
   margin-bottom: 6.33rem;
+  
 }
 
 .SearchBar input {
@@ -16,6 +17,7 @@
   font-weight: 700;
   text-align: center;
   font-size: 1rem;
+  z-index: 2;
 }
 
 .SearchBar input:focus {
@@ -34,6 +36,7 @@
   border: 0px;
   color: #fff;
   font-weight: 800;
+  z-index: 2;
 }
 
 .SearchButton:hover {

@@ -28,6 +28,7 @@ h2 {
 }
 
 .App {
+  position: relative; 
   height: 100%;
   padding: 0 17% 10% 17%;
   background-image: url('./39.da865c773592830a846a630ef7f1b8ef.jpg');
@@ -39,10 +40,23 @@ h2 {
   color: #fff;
 }
 
+.App::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
 .App-playlist {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  position: relative; 
+  z-index: 2;
 }
 
 @media only screen and (max-width: 1020px) {

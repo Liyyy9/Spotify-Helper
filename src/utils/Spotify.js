@@ -1,5 +1,5 @@
 let accessToken = "";
-const clientID = "< YOUR_CLIENT_KEY_HERE >";
+const clientID = "d5ab5fa54951407b8dd12d9bd0ae1677";
 // const redirectUrl = "http://localhost:3000";
 const redirectUrl = "https://liyanaspotifyhelper.surge.sh";
 

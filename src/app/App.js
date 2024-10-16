@@ -10,7 +10,7 @@ function App() {
   // state management (useState() hook) - to create an Array called searchResults
   const [searchResults, setSearchResults] = useState([]);
   const [playListTracks, setPlayListTracks] = useState([]);
-  const [playListName, setPlayListName] = useState("New playlist...");
+  const [playListName, setPlayListName] = useState("New Playlist...");
 
   // sideEffect (Document Load) - called useEffect hook
   // The blank bracket refers to running this hook only once
