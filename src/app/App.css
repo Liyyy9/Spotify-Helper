@@ -11,7 +11,7 @@ html {
 h1 {
   margin: auto;
   padding: .77rem 0;
-  background-color: #010c3f;
+  background-color: #371a8b;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 1.88rem;
@@ -19,7 +19,7 @@ h1 {
 }
 
 h1 .highlight {
-  color: #6c41ec;
+  color: #a200ff;
 }
 
 h2 {
@@ -30,7 +30,7 @@ h2 {
 .App {
   height: 100%;
   padding: 0 17% 10% 17%;
-  background-image: url('./background_photo_desktop.jpeg');
+  background-image: url('./39.da865c773592830a846a630ef7f1b8ef.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
